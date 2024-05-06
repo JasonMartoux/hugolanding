@@ -3,6 +3,5 @@ id: "portfolio"
 
 content:
   - image: "images/portfolio-ecommerce.png"
-    pretitle: "Qui suis-je ?"
-    title: "Mon crédo"
-    text: "Vous gagnerez également en productivité opérationnelle grâce à la mise en place d'outils centralisés, d'indicateurs clés de performance et d'automatisations des tâches chronophages."
+    title: "Que puis-je faire pour vous ?"
+    text: "Vous faire gagner en productivité operationnelle grâce à la mise en place d'outils centralisés, d'indicateurs clés de performance et d'automatisations des tâches chronophages."
