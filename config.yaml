@@ -1,0 +1,60 @@
+baseURL: "https://www.example.com/"
+theme: "up-business-theme"
+languageCode: "fr-fr"
+
+title: "Jason Mrtx"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "Jason Mrtx"
+  description: "je conçois des Web app robustes et évolutives qui éliminent les problèmes chronophages paralysant vos équipes, leur donnant l'espace et la liberté nécessaires pour se consacrer pleinement à vos priorités stratégiques."
+  images: 
+    - "images/hero-image.png"
+
+  logo: "arrow-up.png"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+    twitter: "https://twitter.com/JasonMarto"
+
+#  location:
+#    - "3891 Ranchview Dr. Richardson, California 62639"
+
+  contact:
+    - "jason@martoux.com"
+    - "+(33) 6 21 89 31 42"
+
+  copyright: "© 2024 Ace of Clubs All Rights Reserved"
+
+menus:
+  main:
+
+    - name: "Comment je fonctionne ?"
+      url: "/#"
+      weight: 1
+
+  buttons:
+    - name: "Prenez rendez-vous"
+      url: "/#"
+      weight: 2
+      pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "Comment je fonctionne ?"
+      url: "/#"
+      weight: 1
+    
+    - name: "Prenez rendez-vous"
+      url: "/#"
+      weight: 2
+
+taxonomies:
+  series: "series"
+  tags: "tags"

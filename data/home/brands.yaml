@@ -1,0 +1,8 @@
+enabled: true
+id: "brands"
+
+content:
+  title: "Je travail avec ces marques et startups"
+  items:
+    - "images/Socios.com_logo.png"
+    - "https://www.anycommerce.io/hubfs/NEW%20logo%20Anycommerce%202023.svg"
