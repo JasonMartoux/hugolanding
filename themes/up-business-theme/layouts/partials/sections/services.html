@@ -1,0 +1,55 @@
+<section class="section services py-5">
+  <div class="container">
+    <div class="row justify-content-center pb-5">
+      <div class="col-12 col-xl-6">
+        {{ with .content.title }}
+          <h3 class="fs-1 fw-bold text-center text-primary pb-3">{{ . }}</h3>
+        {{ end }}
+        {{ with .content.text }}
+          <p class="text-black-61 text-center pb-3">{{ . }}</p>
+        {{ end }}
+      </div>
+    </div>
+    <div class="row g-5">
+      <div class="col-12 col-xl-4">
+        <div class="card bg-blue-16 border-0 border-radius-34 p-4">
+          <div class="card-body text-center">
+            <h4 class="card-title text-center text-primary pb-4">Offre Découverte : "Objectif Automatisation"</h4>
+            <p class="card-text text-black-61 pb-4">
+              - Étudier votre contexte, vos priorités et vos attentes en termes d'automatisation. Nous définissons ensemble le périmètre sur lequel intervenir.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-xl-4">
+        <div class="card bg-blue-16 border-0 border-radius-34 p-4">
+          <div class="card-body text-center">
+            <h4 class="card-title text-center text-primary pb-4">Offre Pilote : "Automatisation Quick Wins"</h4>
+            <ul class="card-text text-black-61 pb-4">
+              <li>Offre "Audit Automatisation"</li>
+              <li>Sélection avec le client jusqu'à 3 processus à automatiser en priorité, parmi les quick wins identifiés lors de l'audit</li>
+              <li>Prototypage des workflows d'automatisation et intégration avec les outils existants de la PME</li>
+              <li>Déploiement des automatisations en production et formation des utilisateurs</li>
+              <li>Suivi sur 2 mois pour évaluer les gains réels, collecter les feedbacks et optimiser les workflows si besoin.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-xl-4">
+        <div class="card bg-blue-16 border-0 border-radius-34 p-4">
+          <div class="card-body text-center">
+            <h4 class="card-title text-center text-primary pb-4">Offre Pilote : "Automatisation et Intégration Globale"</h4>
+            <ul class="card-text text-black-61 pb-4">
+              <li>Automatisation Quick Wins</li>
+              <li>Sélection avec la PME jusqu'à 5 processus à automatiser en priorité, parmi les quick wins identifiés lors de l'audit</li>
+              <li>Suivi sur 6 mois pour évaluer les gains réels, collecter les feedbacks et optimiser les workflows si besoin</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
