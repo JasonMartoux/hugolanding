@@ -15,8 +15,10 @@
           <h3 class="fs-1 fw-bold text-primary pb-3">{{ . }}</h3>
         {{ end }}
         {{ with .text }}
-          <p class="text-black-61 pb-3">{{ . }}</p>
-        {{ end }}
+        <div class="text-black-61 pb-3">
+           <p>Constamment à l'affût des technologies les plus innovantes, je m'attache à identifier les outils qui permettront de résoudre en profondeur les problématiques auxquelles font face vos équipes :</p> <ul> <li>🎯 Audit de vos processus opérationnels</li> <li>💡 Recommandations techniques et fonctionnelles</li> <li>⚙️ Développement d'outils d'automatisation et de pilotage ( Des systèmes d'alerte intelligents pour vous notifier en cas d'anomalie ou de dépassement de seuils critiques, vous permettant de réagir rapidement, Des workflows automatisés pour fluidifier vos processus clés (validation des devis, gestion des retours, facturation, etc.)</li> <li>🤖 Intégration d'intelligence artificielle pour simplifier les tâches répétitives</li> <li>📈 Mise en place d'indicateurs de performance clés</li> </ul> <p>Le résultat ? Des équipes techniques épanouies et performantes, qui peuvent se concentrer pleinement sur l'amélioration continue de votre entreprise :</p> <ul> <li>⏱️ Temps et ressources libérés grâce à l'automatisation des processus</li> <li>🚀 Gain de productivité et d'agilité</li> <li>😊 Satisfaction et fidélité de vos collaborateurs</li> <li>📊 Pilotage facilité grâce aux données temps réel</li> </ul> <p>Tout cela se résume à...un impact concret sur votre performance opérationnelle, votre productivité et votre compétitivité à long terme.</p> <p>Sautez le pas et contactez moi pour un premier échange !</p>
+        </div>
+          {{ end }}
         <div class="">
           {{ range .buttons }}
             <a class="text-decoration-none me-3" href="{{ .url }}">{{ .label }}</a>
