@@ -3,7 +3,7 @@ id: "hero"
 
 content:
   title: "How to **level up** your workflow"
-  text: "Je conçois des Web app robustes et évolutives qui éliminent les problèmes chronophages paralysant vos équipes, leur donnant l'espace et la liberté nécessaires pour se consacrer pleinement à vos priorités stratégiques."
+  text: "Je conçois des Web app robustes et évolutives qui éliminent les tâches chronophages paralysant vos équipes, leur donnant l'espace et la liberté nécessaires pour se consacrer pleinement à vos priorités stratégiques."
 
   buttonPrimary:
     label: "Comment je fonctionne ?"
